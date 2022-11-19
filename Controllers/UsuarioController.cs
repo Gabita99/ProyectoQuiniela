@@ -19,7 +19,7 @@ namespace ProyectoQuiniela.Controllers
         }
 
         [HttpGet]
-        [Route("ListaUsuarios")]
+        [Route("ListaUsuario")]
         public async Task<IActionResult> Lista()
         {
             List<Usuario> lista = new List<Usuario>();
